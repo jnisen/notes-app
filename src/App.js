@@ -12,13 +12,13 @@ const App = () => {
   const [notes, setNotes] = useState([
     {
       id: nanoid(),
-      text: 'Hello, can you heard me',
-      date: '15/04/2021'
+      text: 'My first note!',
+      date: '02/10/2021'
     },
     {
       id: nanoid(),
-      text: 'Hello, can you heard me',
-      date: '20/04/2021'
+      text: 'My second note!',
+      date: '06/10/2021'
     }
 
   ]);
